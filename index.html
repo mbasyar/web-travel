@@ -3,27 +3,36 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tourtraveling</title>
+    <title>Travel App</title>
+    <!--animasi aos-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--icon judul website-->
     <link rel="icon" href="./asssets/testi.png" type="image/x-icon">
+    <!--box-icon-->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!--css manual-->
     <link rel="stylesheet" href="./style.css">
+    <!--font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-
+    <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   </head>
+
+
   <body style="background-color: #D0FCFF;">
-    <!--navbar-->
+
+    <!--navbar bootstrap-->
     <nav class="navbar navbar-expand-lg py-4 ">
-      <div class="container-fluid px-5">
-        <a class="tour navbar-brand text-xl-center" href="#">Tour<span class="travel">traveling</span></a>
+      <div class="container-fluid px-md-5">
+        <a class="tour navbar-brand text-xl-center" href="#">Tour<span class="travel" style="font-size: 25px;">aveling</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item me-5">
-              <a class="nav-link mx-4 active" aria-current="page" href="#home" style="color: orange; font-weight: bold;">Home</a>
+              <a class="nav-link mx-md-4 active" aria-current="page" href="#home" style="color: 
+              #FFA451; font-weight: bold;">Home</a>
             </li>
             <li class="nav-item me-5">
               <a class="nav-link " href="#service">Service</a>
@@ -44,39 +53,42 @@
         </div>
       </div>
     </nav>
-    <!--jumbotron home-->
+
+    <!--jumbotron area-->
     <div class="container-fluid mb-5 mt-5" id="home">
       <div class="row justify-content-center align-items-center p-0 px-md-5">
         <div class="content_left col-12 col-md-6" data-aos="fade-right" data-aos-duration="2000">
           <section class="mx-auto w-100">
-            <h1 class="tagline" style="font-weight: 900; font-size: xx-large;">Make Your Trip Memorable Book With Tour<span class="travel">traveling</span></h1>
-            <p style="font-size:18px; text-align:left; margin:20px 0px; color: #4a4a4a;">We have partners with several destinations that you might feel at home there, we will guide you with our best service. </p>
-            <span class="me-5" style="color: #1f4590; font-weight: bold; font-size: 17px;"><i class="fa-solid fa-square-check fa-2x me-2"></i>Plan your trip</span>
-            <span style="color: #1f4590; font-weight: bold; font-size: 17px;"><i class="fa-solid fa-square-check fa-2x me-2"></i>Fly with us</span> <br>
-            <div class="form-panel" style="margin-top: 4rem; border: 1px solid rgba(0, 0, 255, 0.541); border-radius: 20px; padding: 10px; padding-top: 20px; display: flex; position: relative; height: 150px;">
+            <h1 class="tagline" style="font-weight: 900; font-size: xx-large;">Make Your Trip Memorable Book With Tour<span class="travel" style="font-size: 34px;">aveling</span></h1>
+            <p style="font-size:18px; text-align:left; margin:20px 0px; font-weight: 500; color: #4a4a4a;">We have partners with several destinations that you might feel at home there, we will guide you with our best service. </p>
+            <span class="me-5" style="color: #1f4590; font-weight: bold; font-size: 21px;"><i class="fa-solid fa-square-check fa-1x me-2"></i>
+             Plan your trip</span>
+            <span style="color: #1f4590; font-weight: bold; font-size: 21px; margin-top: 200px;"><i class="fa-solid fa-square-check fa-1x me-2"></i>Fly with us</span> <br>
+            <div class="form-panel" style="margin-top: 4rem; border: 1px solid rgba(0, 0, 255, 0.541); border-radius: 20px; padding: 10px; padding-top: 20px; display: flex; position: relative; height: 170px; width: 655px;">
               <div class="title-form ms-5" style="background-color: #1f4590; color: white; position: absolute; top: -25px; right: 250px; border-radius: 30px; padding: 3px 30px;">
                   <p style="font-weight: semi-bold; margin-top: 10px; font-weight: bold">Get the schedule</p>
               </div>
-              <div class="form-location" style="position: absolute; left: 100px; top: 40px; display: flex;">
-                  <i class='bx bxs-map loc'></i>
+              <div class="form-location" style="position: absolute; left: 40px; top: 60px; display: flex;">
+                  <i class='bx bxs-map loc' style="font-size: 30px; color: #1f4590; margin-right: 5px;"></i>
                   <div class="location">
-                      <p>Location <i class='bx bx-chevron-down'></i></p>
-                      <select>
+                      <p style="font-size: 18px; font-weight: 800px; color: #1f4590;">Location <i class='bx bx-chevron-down' style="font-size: 20px;"></i></p>
+                      <select style="border: 1px solid #1f4590; border-radius: 8px; padding: 8px; color: #1f4590;">
                           <option value="">Jakarta, indonesia</option>
                           <option value="">Bali, indonesia</option>
                           <option value="">Yogyakarta, indonesia</option>
                       </select>
                   </div>
               </div>
-              <div class="form-date" style="position: absolute; right: 150px; top: 40px; display: flex;">
-                  <i class='bx bxs-calendar-alt cal'></i>
+              <div class="form-date" style="position: absolute; right: 130px; top: 60px; display: flex;">
+                  <i class='bx bxs-calendar-alt cal' style="font-size: 30px; color: #1f4590; margin-right: 5px;"></i>
                   <div class="date">
-                      <p>Date <i class='bx bx-chevron-down'></i></p>
-                      <input type="date">
+                      <p style="font-size: 18px; font-weight: 800px; color: #1f4590;">Date <i class='bx bx-chevron-down'></i></p>
+                      <input type="date" style="border: 1px solid #1f4590; border-radius: 8px; padding: 8px; color: #1f4590;">
                   </div>
               </div>  
-              <div class="search rounded-circle p-2" style="position: absolute; right: 50px; top: 60px; background-color: blue; ">
-            <i class="fa-solid fa-magnifying-glass fa-1x text-white"></i>
+              <div class="search rounded-circle" style="position: absolute; right: 30px; top: 90px; background-color:
+#1f4590; padding: 10px;">
+            <i class="fa-solid fa-magnifying-glass fa-1x text-white" style="color: #1f4590;"></i>
           </div>
           </div>
         
@@ -93,7 +105,8 @@
     <!--konten 1 service-->
     <div class="container mt-5" id="service">
       <div class="section text-center">
-        <h4 style="color: orange; font-weight: semi-bold; text-transform: uppercase;">what we serve</h4>
+        <h4 style="color: 
+#FFA451; font-weight: semi-bold; text-transform: uppercase;">what we serve</h4>
         <h1 style="color: #4a4a4a; font-size: 40px;">Top Values For You</h1>
         <p style="color: #4a4a4a; font-size: 20px;"> The best service that will be with you every time</p>
       </div>
@@ -102,12 +115,12 @@
     <div class="container-fluid mt-5">
       <div class="container p-5" style="border-top-left-radius: 80px; border-top-right-radius: 80px; background-color: #1f4590;" data-aos="fade-up" data-aos-duration="2000">
         <div class="row" style="background-color: #1f4590;"  >
-          <div class="col-3 text-center" style="position: relative;">
+          <div class="col-12 col-md-3 text-center" style="position: relative;">
             <div class="text-white" style="background-color: #1f4590;">
               <div class="card-logo">
                 <i class="fa-solid fa-globe fa-2x" width="50px" height="50px"></i> 
               </div>
-              <div class="card-title">
+              <div class="card-title mt-3">
                 <h3>Lot Of Choises</h3>
               </div>
               <div class="card-desc">Total of more than 450 destinations
@@ -117,12 +130,12 @@
             </div>
           </div>
         
-          <div class="col-3 text-center">
+          <div class="col-12 col-md-3 text-center">
             <div class="text-white" style="background-color: #1f4590;">
               <div class="card-logo">
                 <i class="fa-solid fa-plane-departure fa-2x" width="50px" height="50px"></i> 
               </div>
-              <div class="card-title">
+              <div class="card-title mt-3">
                 <h3>Tour Guide</h3>
               </div>
               <div class="card-desc">
@@ -130,12 +143,12 @@
                 destination in the place you visit
               </div>
             </div>
-          </div><div class="col-3 text-center">
+          </div><div class="col-12 col-md-3 text-center">
             <div class="text-white" style="background-color: #1f4590;">
               <div class="card-logo">
                 <i class="fa-solid fa-cart-shopping fa-2x"  width="50px" height="50px" ></i>
               </div>
-              <div class="card-title">
+              <div class="card-title mt-3">
                 <h3>Easy Booking</h3>
               </div>
               <div class="card-desc">
@@ -144,12 +157,12 @@
                         through our website
               </div>
             </div>
-          </div><div class="col-3 text-center">
+          </div><div class="col-12 col-md-3 text-center">
             <div class="text-white" style="background-color: #1f4590;">
               <div class="card-logo">
                 <i class="fa-solid fa-bed fa-2x"  width="50px" height="50px"></i>
               </div>
-              <div class="card-title">
+              <div class="card-title mt-3">
                 <h3>Luxury Hotel</h3>
               </div>
               <div class="card-desc">
@@ -166,19 +179,20 @@
     <!--konten3 pricing-->
     <div class="container-fluid" style="margin-top: 7rem;" id="pricing">
       <div class="container my-5">
-        <h3 style="color: orange; font-weight: semi-bold; text-transform: uppercase;" data-aos="fade-right" data-aos-duration="2000">TOP DESTINATION</h3>
+        <h3 style="color: 
+#FFA451; font-weight: semi-bold; text-transform: uppercase;" data-aos="fade-right" data-aos-duration="2000">TOP DESTINATION</h3>
         <h1 style="color: #4a4a4a; font-size: 40px" data-aos="fade-right" data-aos-duration="2000">Explore Top Destination</h1> 
       </div>
       <div class="section2">
         <div class="container">
           <div class="row">
-            <div class="col-3" data-aos="fade-up" data-aos-duration="2000">
+            <div class="col-md-3 col-12 mb-4" data-aos="fade-up" data-aos-duration="2000">
               <div class="card-box" style="background-image: url(./asssets/jogja.webp); background-size: cover;">
                 <div class="section-card">
                     <div class="duo-card mx-auto flex px-2">
                       <span class="btn btn-warning text-white ms-5 my-3">beach</span>
                       <span class="btn btn-primary rounded-circle ms-5 my-3" style="width: 68px; height: 68px; justify-content: center; align-items: center; padding-top: 20px;">$350</span>
-                      <h3 class="text-start">Kuta Indonesia</h3>
+                      <h3 class="text-start">Kuta, Indonesia</h3>
                       <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, neque aut! Qui repellendus corporis quibusdam soluta dicta perferendis repudiandae. Laudantium?</p>
                       <div class="btn btn-warning text-white" style="margin-left: 110px; margin-top: 25px;">detail</div>
                     </div>
@@ -186,37 +200,37 @@
               </div>
             </div>
             
-            <div class="col-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
+            <div class="col-md-3 col-12 mb-4" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
               <div class="card-box" style="background-image: url(./asssets/wisata.webp); width: 300px; height: 400px; background-size: cover;">
                 <div class="section-card">
                     <div class="duo-card mx-auto flex px-2">
                       <span class="btn btn-warning text-white ms-5 my-3">beach</span>
                       <span class="btn btn-primary rounded-circle ms-5 my-3" style="width: 68px; height: 68px; justify-content: center; align-items: center; padding-top: 20px;">$350</span>
-                      <h3 class="text-start">Kuta Indonesia</h3>
+                      <h3 class="text-start">Bangkok, Thailand</h3>
                       <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, neque aut! Qui repellendus corporis quibusdam soluta dicta perferendis repudiandae. Laudantium?</p>
                       <div class="btn btn-warning text-white" style="margin-left: 110px; margin-top: 25px;">detail</div>
                     </div>
                   </div>
               </div>
-            </div>  <div class="col-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+            </div>  <div class="col-md-3 col-12 mb-4" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
               <div class="card-box" style="background-image: url(./asssets/wisata2.jpg); width: 300px; height: 400px; background-size: cover;">
                 <div class="section-card">
                     <div class="duo-card mx-auto flex px-2">
                       <span class="btn btn-warning text-white ms-5 my-3">beach</span>
                       <span class="btn btn-primary rounded-circle ms-5 my-3" style="width: 68px; height: 68px; justify-content: center; align-items: center; padding-top: 20px;">$350</span>
-                      <h3 class="text-start">Kuta Indonesia</h3>
+                      <h3 class="text-start">Bali, Indonesia</h3>
                       <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, neque aut! Qui repellendus corporis quibusdam soluta dicta perferendis repudiandae. Laudantium?</p>
                       <div class="btn btn-warning text-white" style="margin-left: 110px; margin-top: 25px;">detail</div>
                     </div>
                   </div>
               </div>
-            </div>  <div class="col-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+            </div>  <div class="col-md-3 col-12 mb-4" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
               <div class="card-box" style="background-image: url(./asssets/produk.png); width: 300px; height: 400px; background-size: cover;">
                 <div class="section-card">
                     <div class="duo-card mx-auto flex px-2">
                       <span class="btn btn-warning text-white ms-5 my-3">beach</span>
                       <span class="btn btn-primary rounded-circle ms-5 my-3" style="width: 68px; height: 68px; justify-content: center; align-items: center; padding-top: 20px;">$350</span>
-                      <h3 class="text-start">Kuta Indonesia</h3>
+                      <h3 class="text-start">Yogya, Indonesia</h3>
                       <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, neque aut! Qui repellendus corporis quibusdam soluta dicta perferendis repudiandae. Laudantium?</p>
                       <div class="btn btn-warning text-white" style="margin-left: 110px; margin-top: 25px;">detail</div>
                     </div>
@@ -248,17 +262,21 @@
     <div class="container-fluid" style="margin-top: 7rem;" id="about">
       <div class="container">
         <div class="row justify-content-center align-items-center" >
-          <div class="col-6" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
+          <div class="col-md-6 col-10" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
             <img src="./asssets/statistik.png" alt="" width="450px" height="500px">
           </div>        
-          <div class="col-6 p-5" data-aos="fade-left"  data-aos-duration="2000">
-            <h4 style="color: orange; font-weight: semi-bold; text-transform: uppercase;">OUR PERFORMANCE</h4>
+          <div class="col-md-6 col-10 p-5" data-aos="fade-left"  data-aos-duration="2000">
+            <h4 style="color: 
+#FFA451; font-weight: semi-bold; text-transform: uppercase;">OUR PERFORMANCE</h4>
             <h1 style="font-weight: 600;">Most people are satisfied with our service</h1>
             <p style="font-size: 22px;">We always provide the best service to customers, we will direct you from ordering tickets to the journey</p>
             <div class="exp" style="display: flex;">
-             <span class="me-5  text-center"><h3 style="color: orange; font-size: 40px; font-weight: 700;">20</h3>years experience</span>
-             <span class="me-5  text-center"><h3 style="color: orange; font-size: 40px; font-weight: 700;">300++</h3>Destination Collaboration</span>
-             <span class="me-3 text-center"><h3 style="color: orange; font-size: 40px; font-weight: 700;">2k++</h3>Customers Happy</span>
+             <span class="me-5  text-center"><h3 style="color: 
+#FFA451; font-size: 40px; font-weight: 700;">20</h3>years experience</span>
+             <span class="me-5  text-center"><h3 style="color: 
+#FFA451; font-size: 40px; font-weight: 700;">300++</h3>Destination Collaboration</span>
+             <span class="me-3 text-center"><h3 style="color: 
+#FFA451; font-size: 40px; font-weight: 700;">2k++</h3>Customers Happy</span>
             </div>
           </div>
         </div>
@@ -269,7 +287,8 @@
     <div class="container-fluid" style="margin-top: 10rem;">
       <div class="row">
         <div class="col-6 p-5" data-aos="fade-right" data-aos-duration="2000">
-          <h3 style="color: orange;">WHAT THEY SAID ?</h3>
+          <h3 style="color: 
+#FFA451;">WHAT THEY SAID ?</h3>
           <h1 style="font-family: 'Raleway', sans-serif; font-weight: 600">What customers say about their experience with us</h1>
           <p>They say what they feel, most of them say they are very satisfied, especially satisfied because they are always guided and directed to between destinations so that they are not confused, and also the provision of comfortable lodging does not have to pay a lot to get it all</p>
         </div>
@@ -293,7 +312,8 @@
 
     <!--konten8 contact-->
     <div class="container-fluid" id="contact">
-      <div class="container mt-5" style="background-color: orange; width: 100%; height: 20rem; border-radius: 20px;">
+      <div class="container mt-5" style="background-color: 
+#FFA451; width: 100%; height: 20rem; border-radius: 20px;">
         <div class="tekz" style="padding-top: 50px; padding-left: 100px;">
            <h1 style="font-family: 'Raleway', sans-serif;
            font-weight: 800;">ARE YOU NEW MEMBER FOR THIS TRIP ?</h1>
